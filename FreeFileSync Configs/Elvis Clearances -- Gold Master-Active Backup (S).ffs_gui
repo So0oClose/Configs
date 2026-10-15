@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreeFileSync XmlType="GUI" XmlFormat="23">
+    <Notes/>
+    <Compare>
+        <Variant>TimeAndSize</Variant>
+        <Symlinks>Exclude</Symlinks>
+        <IgnoreTimeShift/>
+    </Compare>
+    <Synchronize>
+        <Differences LeftOnly="right" LeftNewer="right" RightNewer="right" RightOnly="right"/>
+        <DeletionPolicy>RecycleBin</DeletionPolicy>
+        <VersioningFolder Style="Replace"/>
+    </Synchronize>
+    <Filter>
+        <Include>
+            <Item>*</Item>
+        </Include>
+        <Exclude>
+            <Item>\System Volume Information\</Item>
+            <Item>\$Recycle.Bin\</Item>
+            <Item>\RECYCLE?\</Item>
+            <Item>\Recovery\</Item>
+            <Item>*\thumbs.db:</Item>
+            <Item>*Premiere Project*:</Item>
+            <Item>\! FolderID ! [*:</Item>
+            <Item>*Folder ID*:</Item>
+            <Item/>
+            <Item>*Pictures*\</Item>
+            <Item>*Photos*\</Item>
+            <Item>*-B-Roll\</Item>
+            <Item>*- B-Roll\</Item>
+            <Item>*- Original Media Files\</Item>
+            <Item>*Premiere Project*\</Item>
+            <Item>*\Adobe Premiere Pro *\</Item>
+            <Item>* - Premiere Files*\</Item>
+            <Item/>
+            <Item>CHARLIE STONE - Abes 2012\</Item>
+            <Item>CHARLIE STONE - Arlington 2017\</Item>
+            <Item>CHRIS CHRISTIAN\</Item>
+            <Item>Elvis Machine - Arlington 2017\</Item>
+            <Item>*\Elvis Machine - Arlington 2017 -- BTS\</Item>
+            <Item>*\z_Larry Gatlin - Backup Files\</Item>
+            <Item>FRED FOSTER - Interview Footage 2007\</Item>
+            <Item>GREG MCDONALD - Arlington 2017\</Item>
+            <Item>HIGHLIGHTS &amp; CLIPS\</Item>
+            <Item>JEANNIE C RILEY\</Item>
+            <Item>King of Rock &amp; Roll - Alexandria 2025-05-31-- Live Show_Performance\</Item>
+            <Item>King of Rock &amp; Roll - Arlington 2017 -- Live Show_Promo\</Item>
+            <Item>NASHVILLE Interviews - 2017\BOB GAUDIO - Nashville 2017\</Item>
+            <Item>NASHVILLE Interviews - 2017\BEEB BIRTLES - Nashville 2017\</Item>
+            <Item>NASHVILLE Interviews - 2017\CC_Sony_DocFiles_Named-Numbered - B-Roll\</Item>
+            <Item>NASHVILLE Interviews - 2017\CHRIS CHRISTIAN - Nashville 2017\</Item>
+            <Item>*\Glen Hardin-Holladay Sisters Sony Photos\</Item>
+            <Item>*\ZZ__NASHVILLE INTERVIEWS*\</Item>
+            <Item>RICK STANLEY*\</Item>
+            <Item>\STAN MOSER_Nashville\</Item>
+            <Item>\TCB GANG -- Las Vegas - 2015-09-23\</Item>
+            <Item>\LOWELL HAYES - Memphis 2025\</Item>
+            <Item>\z--Material to License-\</Item>
+        </Exclude>
+        <SizeMin Unit="None">0</SizeMin>
+        <SizeMax Unit="None">0</SizeMax>
+        <TimeSpan Type="None">0</TimeSpan>
+    </Filter>
+    <FolderPairs>
+        <Pair>
+            <Left>E:\Elvis-Gold Master\! __Media Rights Releases &amp; Clearances__ !</Left>
+            <Right>S:\Elvis Master - Active Backup\! __Media Rights Releases &amp; Clearances__ !</Right>
+        </Pair>
+    </FolderPairs>
+    <Errors Ignore="false" Retry="0" Delay="5"/>
+    <PostSyncCommand Condition="Completion"/>
+    <LogFolder>C:\Users\So0oClose\AppData\Roaming\FreeFileSync\Logs</LogFolder>
+    <EmailNotification Condition="Always"/>
+    <GridViewType>Difference</GridViewType>
+</FreeFileSync>
